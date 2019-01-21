@@ -1,0 +1,13 @@
+prefix=/usr
+libdir=/usr/lib/oracle/12.2/client64/lib/
+includedir=/usr/include/oracle/12.2/client64/
+
+glib_genmarshal=glib-genmarshal
+gobject_query=gobject-query
+glib_mkenums=glib-mkenums
+
+Name: oci8
+Description: Oracle Instant Client
+Version: 12.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -lclntsh
