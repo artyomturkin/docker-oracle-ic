@@ -1,0 +1,9 @@
+*.zip
+*.md
+.git
+.cache
+.gitignore
+.dockerignore
+*.dockerfile
+*.sh
+dockerfiles
